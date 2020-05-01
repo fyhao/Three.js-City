@@ -67,7 +67,7 @@
     World.prototype = {
         init: function () {
             var me = this,
-                gridSize = 10,
+                gridSize = 11,
                 freeSpace;
 
             // some good music O:
@@ -229,7 +229,7 @@
                 rows = [],
                 cols = [],
                 selected,
-                models = ['Block', 'Classic', 'RoundBlock', 'Park'],
+                models = ['Park', 'Park', 'Park', 'Park'],
 //                probability = [0, 0, 0, 1, 1],
                 probability = [0, 0.7, 0.8, 0.9, 1],
                 max = [Infinity, Infinity, 1, 1],
