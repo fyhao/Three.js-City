@@ -53,5 +53,5 @@ T3.controller.MotionDetectionHeadTrackr = (function () {
         initialize: initialize,
         start: start,
         stop: stop
-    }
+    };
 })();

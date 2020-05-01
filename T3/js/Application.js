@@ -103,7 +103,7 @@ T3.Application = {
      */
     createSceneLights: function () {
         var light,
-            // http://planetpixelemporium.com/tutorialpages/light.html
+        // http://planetpixelemporium.com/tutorialpages/light.html
 //            color = 0xffd6aa,       // 100W Tungsten like color
             color = 0xfff1e0,       // Halogen like color
             k, d;
@@ -266,7 +266,7 @@ T3.Application = {
     T3.AssetLoader.debug();
     T3.AssetLoader
 
-    // texture
+        // texture
         .addToLoadQueue('texture-marble', 'images/textures/marble.jpg', 'texture')
         .addToLoadQueue('texture-water', 'images/textures/water.jpg', 'texture')
         .addToLoadQueue('texture-world', 'images/textures/world.jpg', 'texture')
@@ -289,7 +289,7 @@ T3.Application = {
         .addToLoadQueue('texture-tree-leaves', 'obj/textures/tree_leaves.png', 'texture')
         .addToLoadQueue('texture-tree-trunk', 'obj/textures/tree_trunk.jpg', 'texture')
 
-    // json
+        // json
         .addToLoadQueue('tree-trunk', 'obj/tree-trunk.js', 'json')
         .addToLoadQueue('tree-leaves', 'obj/tree-leaves.js', 'json')
         .addToLoadQueue('car-body-geometry', 'obj/Skyline.body.js', 'json')
