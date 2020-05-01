@@ -67,7 +67,7 @@
     World.prototype = {
         init: function () {
             var me = this,
-                gridSize = 11,
+                gridSize = 1,
                 freeSpace;
 
             // some good music O:
